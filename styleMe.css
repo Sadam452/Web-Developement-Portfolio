@@ -176,6 +176,9 @@ html {
     text-align: center;
     position: relative;
 }
+#services a{
+	text-decoration: none;
+}
 #services .buy {
 	background-color: black;
 	color:white;
