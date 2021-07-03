@@ -68,6 +68,10 @@ html {
 	background-color: white;
 	border: 2px solid black;
 }
+#middle h2 {
+	 font-size: 130px;
+	 letter-spacing: 5px;
+}
 #about-left {
 	float: left;
 	width: 50%;
