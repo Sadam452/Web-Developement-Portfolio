@@ -6,7 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 #top {
-	height: 120px;
+	height: 110px;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	box-shadow: 2px 2px 2px #999999;
 }
 #top-left {
 	float: left;
@@ -15,6 +20,12 @@ html {
 	text-align: center;
 	letter-spacing: 3px;
 	font-family: courier;
+}
+#top-left .image {
+	display: inline;
+	float: left;
+	margin-left: 30%;
+	border-radius: 50%;
 }
 #top-left .links {
 	text-decoration: none;
