@@ -5,7 +5,71 @@
 	<link rel="stylesheet" type="text/css" href="styleMe.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+		@media(max-width:600px){
+		body {
+			overflow-x: hidden;}
+		#middle h2 {
+			font-size: 70px;
+			letter-spacing: 2px;}
+		#about-left {
+			width:100%;
+			height: 700px;}
+		#about-right {
+			width:100%;
+			height: 400px;}
+		#services {
+			margin-top: 1100px;
+			height: 1980px;
+			}
+		#services .services-left {
+			width:80%;
+			height: 450px;
+			margin-left: 2%;}
+		#services .services-middle {
+			width:80%;
+			height: 450px;}
+		#services .services-right {
+			width:80%;
+			height: 450px;}
+		#contact {
+			height: 1000px;
+			}
+		#address {
+			width:100%;
+			height: 520px;}
+		#message {
+			width: 100%;
+			height: 480px;
+			margin-left: 20px;
+			}
+		#message .message-input {
+			width: 300px;
+			}
+		#message .send-message {
+			margin-left: 205px;
+			}
+		#subscribe {
+			height: 230px;
+		}
+		#subscribe .email {
+			margin-left: 7%;
+		}
+		#about-left .aboutMe1 {
+			margin-left:3%;
+		}
+		#about-left .about-left-message {
+			margin-left: 3%;
+		}
+		#aboutMe:after {
+			margin-left: 3%;
+		}
+		#about-left .resume1 {
+			margin-left: 20%;
+		}
+}
+	</style>
 </head>
 <body onload="f()">
 	<div id="top">
@@ -25,7 +89,7 @@
 </div>
 <div id="middle">
 	<p style="font-size:30px">AMBITION IS THE FIRST STEP TOWARDS</p>
-     <h2 style="font-size:130px;letter-spacing: 5px;">SUCCESS</h2>
+     <h2>SUCCESS</h2>
      <p>Now Available for Online Coaching</p><br>
      <a href="#bookNow" class="bookNow">Book Now</a>
 </div>
@@ -35,7 +99,10 @@
 		<h2 class="aboutMe1">ABOUT</h2>
 		<h2 class="aboutMe1">ME</h2><br>
         <p class="about-left-message">I am more than a Web developer, having hold on many programming languages. Having working experience on database management also. Completed many projects in networking fields, IOT, & many more...</p><br><br>
-        <a href="#more" class="about-left-more">Read More</a>
+        <a href="#more" class="about-left-more">Read More</a><br><br><br><br><br><br><br>
+        <a class="resume1 resume" href="resume.pdf">Resume</a>&nbsp;&nbsp;
+        <a class="resume" href="#">Portfolio</a>&nbsp;&nbsp;
+        <a class="resume" href="https://github.com/Sadamhussainc">Github</a>
 	</div>
 	<div id="about-right">
 	</div>
@@ -92,7 +159,7 @@
         </script>
 	</div>
 	<div id="message">
-		<form action="messageRecieved.php" method="post">
+		<form action="#" method="post">
 			<p>Enter Your Name</p>
 			<input class="message-input"type="text" pattern="[a-zA-Z\s]{5-20}"name="FirstName"required><br>
 			<br><p>Enter Your Email</p>
@@ -105,6 +172,14 @@
             <br><input class="send-message"type="submit" name="sumbit" value="Send Message">
 		</form>
 	</div>
+</div>
+<div id="subscribe">
+	<p>Get Everything Instantly Delivered Into Your Inbox, We value Your Time.</p>
+	<p>Subscribe To Our Newsletter</p><br>
+	<form action="#" method="post">
+		<input class="email" type="email" name="email" placeholder="Enter Your Email"required>
+		<input class="submit" type="submit" name="subscribe" value="Subscribe">
+	</form>
 </div>
 </body>
 </html>
