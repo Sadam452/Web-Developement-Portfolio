@@ -5,6 +5,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 #top {
 	height: 120px;
 }
@@ -71,6 +72,10 @@ html {
 #middle .bookNow:hover {
 	color: black;
 	background-color: white;
+}
+#middle h2 {
+	 font-size: 130px;
+	 letter-spacing: 5px;
 }
 #about-left {
 	float: left;
@@ -197,6 +202,9 @@ html {
     text-align: center;
     position: relative;
 }
+#services a{
+	text-decoration: none;
+}
 #services .buy {
 	background-color: black;
 	color:white;
@@ -312,6 +320,7 @@ html {
 #subscribe .email {
 	margin-left: 38%;
 	border: 2px solid black;
+<<<<<<< HEAD
 	padding: 10px;
 	font-family: monospace;
 	background-color: rgba(50, 210, 210, 0.7);
@@ -333,3 +342,6 @@ html {
 #subscribe .submit:hover {
 	transform: translateX(3px);
 }
+=======
+}
+>>>>>>> e4a5b18c3a310f8f6d0defc6d52adaecaae03f04
